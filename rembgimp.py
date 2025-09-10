@@ -47,7 +47,7 @@ except ImportError as e:
 
 class RemoveBackgroundPlugin(Gimp.PlugIn):
     def do_query_procedures(self):
-        return ["remove-background"]
+        return ["rembgimp"]
 
     def do_set_i18n(self, name):
         return False
